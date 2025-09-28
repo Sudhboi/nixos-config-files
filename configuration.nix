@@ -154,6 +154,7 @@
     neovim
     fastfetch
     obsidian
+    geteduroam-cli
     #gnome-tweaks
   ];
 
