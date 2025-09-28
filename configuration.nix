@@ -156,6 +156,10 @@
     obsidian
     geteduroam-cli
     gcc
+    jdk
+    gnumake
+    unzip
+    ripgrep
     #gnome-tweaks
   ];
 
