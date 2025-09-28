@@ -155,6 +155,7 @@
     fastfetch
     obsidian
     geteduroam-cli
+    gcc
     #gnome-tweaks
   ];
 
