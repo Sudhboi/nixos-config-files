@@ -65,6 +65,16 @@
     displayManager.sddm.wayland.enable = true;
   };
 
+  # Using TLP
+  services.tlp = {
+    enable = true;
+    settings = {
+      STOP_CHARGE_THRESH_BAT0 = 80;
+    };
+  };
+  services.power-profiles-daemon.enable = false;
+  
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
